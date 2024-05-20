@@ -1,0 +1,216 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nilay Shah</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <header>
+        Nilay Shah
+        <p class="header-title">
+            Software Engineer
+        </p>
+        <p class="header-title-logo">
+            <img src="./icons/headers/gmail.svg" class="icon">
+            <a class="unstyle-a" href="mailto: shahnilay103@gmail.com">shahnilay103@gmail.com</a>
+            <img src="./icons/headers/phone.svg" class="icon">
+            <a class="unstyle-a" href="tel: 08780820420">08780820420</a>
+            <img src="./icons/headers/medium.svg" class="icon">
+            <a class="unstyle-a" href="https://shahnilay.medium.com/">ShahNilay</a>
+            <img src="./icons/headers/github.svg" class="icon">
+            <a class="unstyle-a" href="https://github.com/Nilay103">Nilay103</a>
+            <img src="./icons/headers/linkedin.svg" class="icon">
+            <a class="unstyle-a" href="https://www.linkedin.com/in/nilay-shah-036480152/">/nilay-shah</a>
+            <img src="./icons/headers/location.png" class="icon">
+            <a class="unstyle-a" href="https://maps.app.goo.gl/EjUB77ozbWL6bYL99">Bengaluru, Karnataka</a>
+        </p>
+    </header>
+    <hr width="100%">
+    <body>
+        <p class="section-title">
+            Skills
+        </p>
+        <table>
+            <tr>
+                <td class="section-border-display">
+                    Languages & Frameworks
+                </td>
+                <td>
+                    <img src="./icons/languages/python.svg" class="icon">
+                    <a class="unstyle-a">Python</a>
+                    <img src="./icons/languages/sql.png" class="icon">
+                    <a class="unstyle-a">SQL</a>
+                    <img src="./icons/frameworks/django.png" class="icon">
+                    <a class="unstyle-a">Django</a>
+                    <img src="./icons/frameworks/drf.jpeg" class="icon" style="width: fit-content;">
+                    <a class="unstyle-a">DRF</a>
+                    <img src="./icons/frameworks/FastAPI.png" class="icon">
+                    <a class="unstyle-a">FastAPI (Basics)</a>
+                    <img src="./icons/languages/js.svg" class="icon">
+                    <a class="unstyle-a">JS (Basics)</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="section-border-display">
+                    Databases
+                </td>
+                <td>
+                    <img src="./icons/databases/mongo.png" class="icon">
+                    <a class="unstyle-a">MongoDB</a>
+                    <img src="./icons/databases/mysql.svg" class="icon" style="width: fit-content;">
+                    <a class="unstyle-a">MySQL</a>
+                    <img src="./icons/databases/es.png" class="icon">
+                    <a class="unstyle-a">Elastic Search (Basics)</a>
+                    <img src="./icons/databases/snowflake.png" class="icon">
+                    <a class="unstyle-a">Snowflake (Basics)</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="section-border-display">
+                    DevOps
+                </td>
+                <td>
+                    <img src="./icons/devops/docker.png" class="icon">
+                    <a class="unstyle-a">Docker</a>
+                    <img src="./icons/devops/k8s.png" class="icon" style="width: fit-content;">
+                    <a class="unstyle-a">Kubernetes</a>
+                    <img src="./icons/devops/jenkins.png" class="icon">
+                    <a class="unstyle-a">Jenkins</a>
+                    <img src="./icons/devops/grafana.png" class="icon">
+                    <a class="unstyle-a">Grafana</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="section-border-display">
+                    Tools & Technologies
+                </td>
+                <td>
+                    <img src="./icons/tools/jira.png" class="icon">
+                    <a class="unstyle-a">Jira</a>
+                    <img src="./icons/tools/git.png" class="icon" style="width: fit-content;">
+                    <a class="unstyle-a">Git</a>
+                    <img src="./icons/tools/postman.png" class="icon">
+                    <a class="unstyle-a">Postman</a>
+                    <img src="./icons/tools/aws.png" class="icon">
+                    <a class="unstyle-a">AWS</a>
+                    <img src="./icons/tools/kibana.png" class="icon">
+                    <a class="unstyle-a">Kibana</a>
+                    <img src="./icons/tools/celery.png" class="icon">
+                    <a class="unstyle-a">Celery</a>
+                </td>
+            </tr>
+        </table>
+        <p class="section-title">
+            Experience
+        </p>
+        <table>
+                <tr class="experience-row">
+                    <td style="width: 6%;">
+                        <img src="./icons/companies/innovaccer.png" class="experience-icon">
+                    </td>
+                    <td class="experience-details-col">
+                            <a class="unstyle-a experience-company-name-col">Innovaccer Analytics</a>
+                            <a>SDE - II</a>
+                    </td>
+                    <td class="experience-duration-col">
+                        Jan '23 - Present
+                    </td>
+                </tr>
+        </table>
+        <ul>
+            <li>
+                <b>Optimisation And Refactoring Of Existing APIs: </b>Designed load testing flow using <span class="highlight">locust</span>. Optimized and refactored existing APIs using Django REST Framework's core concepts, developing thread safe code and applying <span class="highlight"> gunicorn </span> worker-thread configuration. This effort led to a remarkable performance improvement <span class="highlight">(5x faster) and 70% reduction in infra costing</span> by applying k8s core concepts for pod autoscaling to optimize CPU core and throttling and memory utilization, showcasing my expertise in API development and code refinement.
+            </li>
+            <li>
+                <b>Data Injection Tool:</b> Integrated event driven sequential data writes to a centralized EMR database supporting HL7 and FHIR data standards, using Celery async concepts and queuing mechanisms to maintain sequence flow for referral creation and updation events. Implemented error handling retry mechanism, event triggers and monitoring tool. Currently the system is able to manage <span class="highlight">up to 5 million write events/day.</span>
+            </li>
+            <li>
+                <b>Notifications System:</b> Notify end users on different referral events. Integrated Fax (Documo) and Email (Zix) 3rd party services to enable secure communication which includes patient’s sensitive information (Currently the system is sending 10k requests/day and can <span class="highlight">perform up to 500k requests/day</span> if needed). Implemented enable/disable notifications, templates, scheduling features.
+            </li>
+        </ul>
+        <hr class="dotted">
+        <table>
+            <tr class="experience-row">
+                <td style="width: 6%;">
+                    <img src="./icons/companies/innovaccer.png" class="experience-icon">
+                </td>
+                <td class="experience-details-col">
+                        <a class="unstyle-a experience-company-name-col">Innovaccer Analytics</a>
+                        <a>SDE - I</a>
+                </td>
+                <td class="experience-duration-col">
+                    Aug '21 - Dec '22
+                </td>
+            </tr>
+        </table>
+        <ul>
+            <li>
+                <b>Config Console: </b>Developed APIs for the Config Console project, enabling administrators to configure feature requirements, incorporating custom logic based on configurations at runtime. <span class="highlight">Delivered over 10 features </span>including several complex ones with a broad impact on the entire product, allowing the product to adapt to customer needs.
+            </li>
+            <li>
+                <b>API Automation & Load Testing Platform:</b> Designed API automation testing across diverse product workflows, achieving <span class="highlight">coverage of over 90% of repository code.</span> Employed <span class="highlight">Newman (.js)</span> for test execution and <span class="highlight">JMeter</span> for performance testing. Established pipelines in <span class="highlight">Jenkins and GitLab runners</span> to automate jobs at scheduled intervals and after pull request creation. This effort led to a <span class="highlight">25% reduction in production incidents</span>.
+            </li>
+        </ul>
+        <hr class="dotted">
+        <table>
+            <tr class="experience-row">
+                <td style="width: 6%;">
+                    <img src="./icons/companies/Ace.jpeg" class="experience-icon">
+                </td>
+                <td class="experience-details-col">
+                        <a class="unstyle-a experience-company-name-col">Ace Enterprise Solutions Ltd</a>
+                        <a>SDE - I</a>
+                </td>
+                <td class="experience-duration-col">
+                    May '20 - June '21
+                </td>
+            </tr>
+        </table>
+        <ul>
+            <li>
+                <b>ERP(Enterprise Resource Planning) Software Module: </b>Handled backend for Trading module to manage all sales, purchases, dispatches, outwards and similar operations to handle supply of goods in warehouses. Built a billing system for generation of audit and tally reports to keep a periodic track of overall purchase and sales (completed and pending orders) of goods for each client for billing purposes.
+            </li>
+            <li>
+                <b>DAP:</b> Built DAP(Data activation platform) to populate existing data of a customer from <span class="highlight">ElasticSearch</span> indexes to Appliaction’s storage async python scripts in <span class="highlight">FastAPI</span> and data mapper logics using <span class="highlight">Pydentic models</span>.
+            </li>
+        </ul>
+        <p class="section-title">
+            Education
+        </p>
+        <table>
+            <tr class="experience-row">
+                <td style="width: 6%;">
+                    <img src="./icons/companies/DAIICT.png" class="experience-icon">
+                </td>
+                <td class="experience-details-col">
+                        <a class="unstyle-a experience-company-name-col">Dhirubhai Ambani Institute of Information & Communication Technology (DA-IICT)</a>
+                        <a>B.Tech (ICT)</a>
+                </td>
+                <td class="experience-duration-col">
+                    June '16 - May '20
+                </td>
+            </tr>
+        </table>
+        <p class="section-title">
+            Awards & Achievements
+        </p>
+        <table>
+            <tr>
+                <td>
+                    Leading by example award (India) (May ‘22)
+                </td>
+                <td>
+                    Champion award (Dec ‘21)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    MVP award (July ‘23, Dec '23, April '24)
+                </td>
+                <td>
+                    SPOT award (April ‘23, May '24)
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
