@@ -6,9 +6,10 @@ html {
     font-weight: 100;
 }
 
-header {
+.name {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
+    margin: 4px 0 2px 0;
 }
 
 hr {
@@ -47,10 +48,9 @@ ul {
 }
 
 .icon {
-    height: 16px;
-    width: 16px;
+    height: 20px;
+    width: 20px;
     vertical-align: middle;
-    margin-left: 4px;
 }
 
 hr.dotted {
@@ -66,7 +66,7 @@ hr.dotted {
 .section-title {
     font-size: 16px;
     font-weight: 200;
-    padding: 6px 0 2px 0;
+    padding: 8px 0 2px 0;
 }
 
 .section-border-display {
