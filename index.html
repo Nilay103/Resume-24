@@ -91,8 +91,8 @@
                     Tools & Technologies
                 </td>
                 <td>
-                    <img src="./icons/tools/jira.png" class="icon">
-                    <a class="unstyle-a">Jira</a>
+                    <img src="./icons/tools/copilot.png" class="icon">
+                    <a class="unstyle-a">Copilot</a>
                     <img src="./icons/tools/git.png" class="icon" style="width: fit-content;">
                     <a class="unstyle-a">Git</a>
                     <img src="./icons/tools/postman.png" class="icon">
@@ -127,16 +127,16 @@
         </table>
         <ul>
             <li>
-                <b>Log Volume Optimisation: </b> Led the initiative to define SOPs for log structure for different log levels & types. Optimised patterns of existing logs. We were able to achieve <span class="highlight">20% reduction in log volumes</span> and <span class="highlight">12% reduction in infrastructure</span> costs.
+                <b>Log Volume Optimisation: </b> Led the initiative to define SOPs for log structure for different log levels & types. Designed internal <span class="highlight">py-json-logger internal package</span> to manage patterns of existing logs across apps managed in python related frameworks. We were able to achieve <span class="highlight">20% reduction in log volumes</span> and <span class="highlight">12% reduction in infrastructure</span> costs.
+            </li>
+            <li>
+                <b>Multi Tenant:</b> Integrated multi-tenant architecture, to enable multiple customers to use the same instance of the software. This involved creating a <span class="highlight">db-router package</span> to manage customer configs at app level. This effort led to a <span class="highlight">30% reduction in infra costs</span>.
             </li>
             <li>
                 <b>Optimisation And Refactoring Of Existing APIs: </b>Designed load testing flow using <span class="highlight">locust</span>. Optimized and refactored existing APIs using Django REST Framework's core concepts, developing thread safe code and applying <span class="highlight"> gunicorn </span> worker-thread configuration. This effort led to a remarkable performance improvement <span class="highlight">(5x faster) and 70% reduction in infra costing</span> by applying k8s core concepts for pod autoscaling to optimize CPU core and throttling and memory utilization, showcasing my expertise in API development and code refinement.
             </li>
             <li>
-                <b>Data Injection Tool:</b> Integrated event driven sequential data writes to a centralized EMR database supporting HL7 and FHIR data standards, using Celery async concepts and queuing mechanisms to maintain sequence flow for referral creation and updation events. Implemented error handling retry mechanism, event triggers and monitoring tool. Currently the system is able to manage <span class="highlight">up to 5 million write events/day.</span>
-            </li>
-            <li>
-                <b>Notifications System:</b> Notify end users on different referral events. Integrated Fax (Documo) and Email (Zix) 3rd party services to enable secure communication which includes patient’s sensitive information (Currently the system is sending 10k requests/day and can <span class="highlight">perform up to 500k requests/day</span> if needed). Implemented enable/disable notifications, templates, scheduling features.
+                <b>Data Injection Tool:</b> Integrated event driven sequential data writes to a centralized EMR database supporting HL7 and FHIR data standards, using Celery async concepts and queuing mechanisms to maintain sequence flow for referral creation and updation events. Implemented <span class="highlight">error handling retry mechanism, event triggers and monitoring tool</span>. Currently the system is able to manage <span class="highlight">up to 5 million write events/day.</span>
             </li>
         </ul>
         <hr class="dotted">
